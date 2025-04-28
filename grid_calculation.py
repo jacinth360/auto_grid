@@ -51,7 +51,7 @@ def calculate_box_and_center(pdbqt_file, padding=6):
     }
 
 # Example usage with your pdbqt file
-pdbqt_file = 'camao_fad_gromacs.pdbqt'
+pdbqt_file = 'protein.pdbqt'
 result = calculate_box_and_center(pdbqt_file)
 
 # Print the returned result
